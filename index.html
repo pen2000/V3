@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>スロットマシン</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>スロットマシーン（仮）</h1>
+    </div>
+
+    <div class="btn_container">
+      <p>
+        <button class="btn btn-large btn-primary start"> START </button>
+        <button class="btn btn-large btn-warning stop" disabled> STOP </button>
+      </p>
+    </div>
+    <div class="reel_container">
+      <div class="columun_container">
+        <div class="roulette_container">
+          <div class="roulette roulette1" style="display:none;">
+          </div>
+        </div>
+      </div>
+      <div class="columun_container">
+        <div class="roulette_container">
+          <div class="roulette roulette2" style="display:none;">
+          </div>
+        </div>
+      </div>
+      <div class="columun_container">
+        <div class="roulette_container">
+          <div class="roulette roulette3" style="display:none;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="output_text"></div>
+  </div>
+  <!-- JSファイルの読み込み -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/roulette.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
